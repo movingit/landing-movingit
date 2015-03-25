@@ -737,10 +737,10 @@
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../images/header.jpg");
-		background-position: bottom center,					top left,				center center;
+		background-image: url("images/top-3200.svg"), url("../images/mouse.jpg"), url("../images/header.jpg");
+		background-position: bottom center,					top center,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
-		background-size: 3200px 460px,					auto,					cover;
+		background-size: 3200px 460px,					100%,					cover;
 		color: rgba(255, 255, 255, 0.8);
 		padding: 10em 0 20em 0;
 		position: relative;
@@ -794,7 +794,10 @@
 		}
 
 		#header .logo {
-			background: #4eb980;
+			/*background: #4eb980;*/
+            background-image: url("../images/fav.png");
+            background-position: center center;
+            background-size: 100%;
 			border-radius: 100%;
 			color: white;
 			cursor: default;
